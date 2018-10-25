@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PowerTools_Exam2</string>
+    <string name="TitleTxt">EnderTool Rental</string>
+    <string name="DaysHint">Enter Rental Days</string>
+    <string name="WasherRdo">Power Washer($55.99)</string>
+    <string name="TillerRdo">Tiller ($68.99)</string>
+    <string name="get_rental_cost">Get Rental Cost</string>
+</resources>

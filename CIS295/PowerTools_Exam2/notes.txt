@@ -1,0 +1,23 @@
+
+Layout Heirarchy
+
+Linear Layout 	//Root Node
+>TextView		//Title
+>ImageView		//Logo
+>EditText		//Number of days to rent
+>RadioGroup		//Type of rental
+>>RadioButton	//Choice 1
+>>RadioButton 	//Choice 2
+>TextView		//Display cost here
+>Button			//Submit 
+
+
+Java Code Plan:
+Member Variables
+>CostPowerWash	//Double, stores cost per day for power washing
+>CostTiler		//Double, stores cost per day for tiler
+Functions
+>OnCreate
+>>Get views for radiobtns, edittext, and display
+>>Create OnClick handler for btn
+>>>CalculatePrice

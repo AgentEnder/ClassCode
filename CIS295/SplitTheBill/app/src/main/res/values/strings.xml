@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SplitTheBill</string>
+    <string name="btnCalculate">Calculate Bill</string>
+    <string name="do_calculations">Do Calculations</string>
+    <string name="txtBill">Total Bill</string>
+    <string name="txtHint">Number of People in Group</string>
+    <string name="txtHeading">Split The Bill!</string>
+    <string-array name="serviceOptions">
+        <item>Excellent</item>
+        <item>Average</item>
+        <item>Poor</item>
+    </string-array>
+</resources>

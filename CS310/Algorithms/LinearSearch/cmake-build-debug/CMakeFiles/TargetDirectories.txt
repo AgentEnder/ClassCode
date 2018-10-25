@@ -1,0 +1,3 @@
+D:/CS310/Algortihms/LinearSearch/cmake-build-debug/CMakeFiles/Algorithms.dir
+D:/CS310/Algortihms/LinearSearch/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/CS310/Algortihms/LinearSearch/cmake-build-debug/CMakeFiles/rebuild_cache.dir

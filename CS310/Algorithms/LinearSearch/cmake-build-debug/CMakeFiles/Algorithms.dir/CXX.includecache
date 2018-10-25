@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/CS310/Algortihms/LinearSearch/ArrayList.h
+iostream
+-
+cassert
+-
+cstdlib
+-
+ctime
+-
+
+D:/CS310/Algortihms/LinearSearch/LinkedList.h
+cassert
+-
+iostream
+-
+
+D:/CS310/Algortihms/LinearSearch/OrderedListType.h
+iostream
+-
+ArrayList.h
+D:/CS310/Algortihms/LinearSearch/ArrayList.h
+
+D:/CS310/Algortihms/LinearSearch/Source.cpp
+iostream
+-
+string
+-
+ArrayList.h
+D:/CS310/Algortihms/LinearSearch/ArrayList.h
+OrderedListType.h
+D:/CS310/Algortihms/LinearSearch/OrderedListType.h
+LinkedList.h
+D:/CS310/Algortihms/LinearSearch/LinkedList.h
+

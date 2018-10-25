@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.craig.powertools_exam2.MainActivity">
+
+    <TextView
+        android:id="@+id/TitleTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TitleTxt"
+        android:textColor="@android:color/black"
+        android:textSize="32sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="225dp"
+        android:src="@drawable/tool_logo" />
+
+    <EditText
+        android:id="@+id/DayInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/DaysHint"
+        android:inputType="number" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/WasherRdo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/WasherRdo" />
+
+        <RadioButton
+            android:id="@+id/TillerRdo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TillerRdo" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/ResultsTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32dp"/>
+
+    <Button
+        android:id="@+id/SubmitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/get_rental_cost"
+        />
+</LinearLayout>

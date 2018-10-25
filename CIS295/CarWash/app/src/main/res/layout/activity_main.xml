@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.craig.carwash.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Car Wash Packages"
+        android:textColor="#FFBD33"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buy 12+ washes for a discount!" />
+
+    <EditText
+        android:id="@+id/txtInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="center_horizontal"
+        android:hint="Enter the number of washes"
+        android:inputType="number"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+
+        <RadioButton
+            android:id="@+id/rdoExteriorOnly"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exterior Only" />
+
+        <RadioButton
+            android:id="@+id/rdoCombo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exterior with Interior Vacuum"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnCalc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate Package"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#AA00FF"
+        android:textSize="24sp"/>
+
+</LinearLayout>

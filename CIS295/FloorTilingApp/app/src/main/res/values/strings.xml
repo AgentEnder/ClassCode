@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FloorTilingApp</string>
+    <string name="btn12x12">12\"x12\"</string>
+    <string name="btn18x18">18\"x18\"</string>
+</resources>
